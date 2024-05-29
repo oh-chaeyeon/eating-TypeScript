@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist", // 컴파일 결과 생성될 자바스크립트 파일들이 어디에 위치했으면 좋겠는지
+    "strict": false, // true-> 아주 엄격하게 코드를 검사
+    "moduleDetection": "force" //type script가 각각의 파일을 어떤 모듈로 감지할건지
+  },
+  "ts-node": {
+    "esm": true //tsnode가 esm 모듈 시스템으로 동작함.
+  },
+  "include": ["src"] //너가 컴파일러할 범위는 여기야~
+}
